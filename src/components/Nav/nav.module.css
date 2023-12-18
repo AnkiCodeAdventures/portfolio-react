@@ -44,3 +44,16 @@ a:hover {
 .icon:hover {
   color: var(--hotmag);
 }
+
+@media (min-width: 850px) {
+  nav {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  li:first-child {
+    flex-basis: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+}
