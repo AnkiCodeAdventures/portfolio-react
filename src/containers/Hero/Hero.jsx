@@ -3,7 +3,7 @@ import styles from "./hero.module.css";
 
 function Hero() {
   return (
-    <div>
+    <div className={styles.heroContainer}>
       <section className={styles.hero}>
         <Nav />
         <div className={styles.heroText}>

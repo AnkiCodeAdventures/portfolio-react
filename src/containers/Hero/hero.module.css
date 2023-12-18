@@ -1,4 +1,4 @@
-.hero {
+.heroContainer {
   background-color: var(--black);
   padding: 3rem 1rem;
 }
@@ -34,4 +34,11 @@ p {
   font-family: var(--mono);
   color: var(--white);
   font-size: 15px;
+}
+
+@media (min-width: 850px) {
+  .hero {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }
