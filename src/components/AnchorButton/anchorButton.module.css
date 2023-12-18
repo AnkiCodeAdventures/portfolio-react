@@ -7,13 +7,16 @@
   border: none;
   font-family: var(--mono);
   font-size: 17px;
+  text-align: center;
+  padding-top: 9px;
 }
 
 .button:hover {
   background-color: var(--hotmag);
+  color: white;
 }
 
 .buttonLG {
   width: 120px;
-  height: 55px;
+  height: 45px;
 }

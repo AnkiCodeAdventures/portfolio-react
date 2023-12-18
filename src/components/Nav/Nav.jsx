@@ -1,4 +1,4 @@
-import Button from "../Button/Button";
+import AnchorButton from "../AnchorButton/AnchorButton";
 import styles from "./nav.module.css";
 import { FaLinkedin, FaGithub, FaLeaf } from "react-icons/fa";
 
@@ -33,7 +33,7 @@ function Nav() {
             </a>
           </li>
           <li>
-            <Button>Resume</Button>
+            <AnchorButton>Resume</AnchorButton>
           </li>
         </ul>
       </nav>

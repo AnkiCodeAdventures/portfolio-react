@@ -1,4 +1,5 @@
 import "./App.css";
+import ContactMe from "./containers/Hero/ContactMe/ContactMe";
 import Hero from "./containers/Hero/Hero";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <>
       <div>
         <Hero />
+        <ContactMe />
       </div>
     </>
   );

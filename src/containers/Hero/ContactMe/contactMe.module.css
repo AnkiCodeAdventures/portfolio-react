@@ -1,0 +1,27 @@
+.contactContainer {
+  background-color: var(--plum);
+  color: var(--white);
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  height: 380px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+h3 {
+  margin: 0;
+  font-size: 34px;
+  font-family: var(--sans);
+}
+
+.contactText {
+  font-family: var(--mono);
+  font-size: 17px;
+}

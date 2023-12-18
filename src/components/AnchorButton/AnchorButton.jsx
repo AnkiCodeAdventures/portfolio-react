@@ -1,14 +1,15 @@
 import clsx from "clsx";
-import styles from "./button.module.css";
+import styles from "./anchorButton.module.css";
 
-function Button(props) {
+function AnchorButton(props) {
   return (
-    <button
+    <a
+      href={props.link}
       className={clsx(styles.button, props.size === "lg" && styles.buttonLG)}
     >
       {props.children}
-    </button>
+    </a>
   );
 }
 
-export default Button;
+export default AnchorButton;
