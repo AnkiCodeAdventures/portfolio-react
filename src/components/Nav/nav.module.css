@@ -1,0 +1,46 @@
+nav {
+  font-family: var(--mono);
+  font-size: 17px;
+}
+
+ul {
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0 10px;
+}
+
+li:first-child {
+  flex-basis: 100%;
+}
+
+h1 {
+  display: inline;
+  font-family: var(--sans);
+  font-size: 28px;
+  padding-bottom: 2rem;
+  font-weight: 600;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: var(--hotmag);
+}
+
+.icon {
+  font-size: 150%;
+  color: var(--aqua);
+}
+
+.icon:hover {
+  color: var(--hotmag);
+}

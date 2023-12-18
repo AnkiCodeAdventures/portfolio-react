@@ -1,0 +1,19 @@
+.button {
+  background-color: var(--magenta);
+  color: white;
+  width: 85px;
+  height: 40px;
+  border-radius: 6px;
+  border: none;
+  font-family: var(--mono);
+  font-size: 17px;
+}
+
+.button:hover {
+  background-color: var(--hotmag);
+}
+
+.buttonLG {
+  width: 120px;
+  height: 55px;
+}

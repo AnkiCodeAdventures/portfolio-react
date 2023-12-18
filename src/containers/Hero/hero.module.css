@@ -1,0 +1,6 @@
+.hero {
+  background-color: var(--black);
+  width: 100vw;
+  height: 700px;
+  padding: 3rem 1rem;
+}
