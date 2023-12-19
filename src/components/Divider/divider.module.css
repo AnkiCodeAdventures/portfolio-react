@@ -1,0 +1,12 @@
+.divider {
+  height: 5px;
+  width: 100%;
+  background: rgb(193, 21, 230);
+  background: linear-gradient(
+    80deg,
+    rgba(193, 21, 230, 1) 35%,
+    rgba(0, 241, 255, 1) 100%
+  );
+  border: none;
+  margin: 0;
+}
