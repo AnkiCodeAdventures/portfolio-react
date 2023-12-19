@@ -10,9 +10,10 @@
   justify-content: center;
   gap: 0.9rem;
   align-items: center;
-  height: 320px;
-  width: 400px;
+  height: 340px;
+  width: 360px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 h3 {
@@ -24,4 +25,5 @@ h3 {
 .contactText {
   font-family: var(--mono);
   font-size: 17px;
+  text-wrap: wrap;
 }

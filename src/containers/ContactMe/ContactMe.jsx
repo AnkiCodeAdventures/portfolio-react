@@ -1,4 +1,4 @@
-import AnchorButton from "../../../components/AnchorButton/AnchorButton";
+import AnchorButton from "../../components/AnchorButton/AnchorButton";
 import styles from "./contactMe.module.css";
 
 function ContactMe() {
@@ -7,7 +7,7 @@ function ContactMe() {
       <section className={styles.contact}>
         <h3>Contact Me</h3>
         <p className={styles.contactText}>
-          Hello there! I'm passionate about continuous learning, exploring
+          Hello there! I&apos;m passionate about continuous learning, exploring
           diverse resources, and bringing new ideas to life through creative
           projects.
         </p>

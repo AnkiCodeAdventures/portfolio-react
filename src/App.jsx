@@ -1,7 +1,8 @@
 import "./App.css";
-import ContactMe from "./containers/Hero/ContactMe/ContactMe";
 import Hero from "./containers/Hero/Hero";
 import Divider from "./components/Divider/Divider";
+import ContactMe from "./containers/ContactMe/ContactMe";
+import Footer from "./containers/Footer/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Divider />
         <ContactMe />
         <Divider />
+        <Footer />
       </div>
     </>
   );

@@ -1,0 +1,25 @@
+.footer {
+  display: flex;
+  background-color: var(--black);
+
+  height: 325px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footerIcons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.footerIcon {
+  font-size: 300%;
+  color: var(--magenta);
+}
+
+.footerIcon:hover {
+  color: var(--hotmag);
+}
