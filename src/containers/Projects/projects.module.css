@@ -1,0 +1,15 @@
+#projects {
+  min-height: 400px;
+  background-color: var(--dkblue);
+  display: flex;
+  flex-flow: row wrap;
+  padding: 45px 20px;
+}
+
+.projectHeading {
+  font-style: var(--mono);
+  font-size: 40px;
+  align-self: flex-start;
+  color: var(--white);
+  text-align: left;
+}

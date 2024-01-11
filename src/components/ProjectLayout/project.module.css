@@ -1,0 +1,54 @@
+.projectLayout {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+}
+
+.projectInfo {
+  font-style: var(--sans);
+  font-size: 18px;
+  color: var(--white);
+  margin: 0;
+  line-height: 1;
+}
+
+.projectName {
+  font-style: var(--mono);
+  color: var(--aqua);
+  font-size: 25px;
+  margin: 0;
+}
+
+article {
+  background-color: var(--black);
+  border-radius: 10px;
+  color: var(--white);
+  font-style: var(--mono);
+  margin: 15px 0;
+  line-height: 1.4;
+  text-align: left;
+  padding: 0 15px;
+}
+
+.tags {
+  color: var(--white);
+  font-family: var(--mono);
+  margin: 0;
+}
+
+a {
+  display: inline;
+}
+
+.videoContainer {
+  border-top: solid 1px var(--aqua);
+  border-left: solid 1px var(--aqua);
+  border-radius: 25px;
+  padding: 25px;
+  margin: 20px 0 40px 0;
+}
+
+video {
+  width: 100%;
+  border-radius: 25px;
+}
