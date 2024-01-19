@@ -52,6 +52,30 @@ function Projects() {
           }
           videoPath="/src/assets/2024011915343. (1).mp4"
         />
+        <ProjectLayout
+          type="Frontend Masters Project"
+          name="iPhone Calculator"
+          tags="HTML | CSS | JavaScript"
+          description={
+            <p>
+              Introducing iPhone Calculator developed with HTML, CSS, and
+              JavaScript as part of the Brian Holt&apos;s Frontend Masters
+              course. This sleek web application replicates the familiar iPhone
+              calculator interface, showcasing a clean and minimalist design.
+              With a focus on user-friendly design and modern technologies, this
+              project reflects my proficiency in front-end development. Explore
+              it{" "}
+              <a
+                className={styles.link}
+                href="https://celadon-sfogliatella-aab46a.netlify.app/"
+              >
+                here
+              </a>
+              .
+            </p>
+          }
+          videoPath="/src/assets/Iphone Calculator.mp4"
+        />
       </div>
     </div>
   );
