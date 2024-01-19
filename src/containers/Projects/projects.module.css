@@ -1,4 +1,4 @@
-#projects {
+.projects {
   min-height: 400px;
   background-color: var(--dkblue);
   display: flex;
@@ -6,10 +6,30 @@
   padding: 45px 20px;
 }
 
+.projectContainer {
+  text-align: left;
+}
+
 .projectHeading {
   font-style: var(--mono);
   font-size: 40px;
-  align-self: flex-start;
   color: var(--white);
-  text-align: left;
+  margin-bottom: 30px;
+}
+
+.link {
+  display: inline-block;
+  color: var(--magenta);
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+@media (min-width: 850px) {
+  .projectContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 }

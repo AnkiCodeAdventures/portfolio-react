@@ -1,28 +1,18 @@
-import styles from "./project.module.css";
+import styles from "./projectLayout.module.css";
 
-function ProjectLayout(props) {
+function ProjectLayout({ type, name, description, tags, videoPath }) {
   return (
     <div className={styles.projectLayout}>
-      <h2 className={styles.projectInfo}>{props.type}</h2>
-      <h2 className={styles.projectName}>{props.name}</h2>
-      <article>
-        <p>{props.description}</p>
-        <p>
-          {" "}
-          To take a look at it, <a href={props.href}>click here</a>.
-        </p>
-      </article>
-      <h2 className={styles.projectInfo}>Technologies used include:</h2>
-      <h4 className={styles.tags}>{props.tags}</h4>
+      <div className={styles.textInfo}>
+        <h2 className={styles.projectInfo}>{type}</h2>
+        <h2 className={styles.projectName}>{name}</h2>
+        <article>{description}</article>
+        <h2 className={styles.projectInfo}>Technologies used include:</h2>
+        <h4 className={styles.tags}>{tags}</h4>
+      </div>
       <div className={styles.videoContainer}>
-        <video
-          autoPlay
-          muted
-          loop
-          className={styles.tvVideo}
-          style={props.videoStyle}
-        >
-          <source src={props.videoPath} type="video/mp4" />
+        <video autoPlay muted loop className={styles.tvVideo}>
+          <source src={videoPath} type="video/mp4" />
         </video>
       </div>
     </div>
