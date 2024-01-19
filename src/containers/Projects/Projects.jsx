@@ -27,7 +27,7 @@ function Projects() {
               .
             </p>
           }
-          videoPath="/src/assets/Netflix clone .mp4"
+          videoPath="/public/assets/Netflix clone .mp4"
         />
 
         <ProjectLayout
@@ -50,7 +50,7 @@ function Projects() {
               </a>
             </p>
           }
-          videoPath="/src/assets/2024011915343. (1).mp4"
+          videoPath="/public/assets/2024011915343. (1).mp4"
         />
         <ProjectLayout
           type="Frontend Masters Project"
@@ -74,7 +74,7 @@ function Projects() {
               .
             </p>
           }
-          videoPath="/src/assets/2024011922272..mp4"
+          videoPath="/public/assets/2024011922272..mp4"
         />
       </div>
     </div>
