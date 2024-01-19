@@ -29,6 +29,29 @@ function Projects() {
           }
           videoPath="/src/assets/Netflix clone .mp4"
         />
+
+        <ProjectLayout
+          type="30 days of JavaScript Project"
+          reverse="true"
+          name="Drumkit"
+          tags="HTML | CSS | JavaScript"
+          description={
+            <p>
+              In the realm of 30 Days JavaScript, behold my Drum Kit&apos;s
+              allure, Responsive beats, a rhythmic interface to explore. Dynamic
+              keys, each sound meticulously mapped, Visual echoes dance, as
+              drums are aptly tapped. A harmony of code, where music and coding
+              unite, A symphony of skills, in this JavaScript delight.{" "}
+              <a
+                href="https://melodious-drums.netlify.app/"
+                className={styles.link}
+              >
+                Explore the beats...
+              </a>
+            </p>
+          }
+          videoPath="/src/assets/2024011915343. (1).mp4"
+        />
       </div>
     </div>
   );

@@ -65,10 +65,17 @@ video {
   }
 
   .textInfo {
-    order: 2;
     text-align: right;
     grid-column: 5/11;
     grid-row: 1/2;
+    order: 2;
+  }
+  .reverseText {
+    grid-column: 1/7;
+    text-align: left;
+  }
+  .reverseMedia {
+    grid-column: 6/11;
   }
 }
 
