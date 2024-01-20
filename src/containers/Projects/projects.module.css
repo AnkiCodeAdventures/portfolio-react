@@ -11,10 +11,11 @@
 }
 
 .projectHeading {
+  display: block;
   font-style: var(--mono);
   font-size: 40px;
   color: var(--white);
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 
 .link {
