@@ -5,6 +5,8 @@ function AnchorButton(props) {
   return (
     <a
       href={props.link}
+      target="_blank"
+      rel="noreferrer"
       className={clsx(styles.button, props.size === "lg" && styles.buttonLG)}
     >
       {props.children}

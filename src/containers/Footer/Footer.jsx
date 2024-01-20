@@ -6,9 +6,23 @@ function Footer() {
     <div className={styles.footer}>
       <h3>Ankita Agarwal · Creater</h3>
       <div className={styles.footerIcons}>
-        <FaLinkedin className={styles.footerIcon} />{" "}
-        <FaGithub className={styles.footerIcon} />
-        <FaEnvelope className={styles.footerIcon} />
+        <a
+          href="https://www.linkedin.com/in/ankita1694/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaLinkedin className={styles.footerIcon} />
+        </a>
+        <a
+          href="https://github.com/AnkiCodeAdventures"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaGithub className={styles.footerIcon} />
+        </a>
+        <a href="mailto:ankitaag94@gmail.com" target="_blank" rel="noreferrer">
+          <FaEnvelope className={styles.footerIcon} />
+        </a>
       </div>
       <p>© 2023 Ankita Agarwal. All rights reserved.</p>
     </div>

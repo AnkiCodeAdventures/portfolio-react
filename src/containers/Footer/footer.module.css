@@ -18,6 +18,7 @@
 .footerIcon {
   font-size: 300%;
   color: var(--magenta);
+  display: block;
 }
 
 .footerIcon:hover {

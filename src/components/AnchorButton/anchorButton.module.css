@@ -1,4 +1,5 @@
 .button {
+  display: block;
   background-color: var(--magenta);
   color: white;
   width: 85px;

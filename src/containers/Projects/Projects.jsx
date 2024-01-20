@@ -3,7 +3,7 @@ import styles from "./projects.module.css";
 
 function Projects() {
   return (
-    <div className={styles.projects}>
+    <div id="projects" className={styles.projects}>
       <div className={styles.projectContainer}>
         <h1 className={styles.projectHeading}>Projects I&apos;m proud of</h1>
         <ProjectLayout
@@ -21,6 +21,8 @@ function Projects() {
               <a
                 className={styles.link}
                 href="https://netflix-clone-anki.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
               >
                 here
               </a>
@@ -44,6 +46,8 @@ function Projects() {
               unite, A symphony of skills, in this JavaScript delight.{" "}
               <a
                 href="https://melodious-drums.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
                 className={styles.link}
               >
                 Explore the beats...
@@ -68,6 +72,8 @@ function Projects() {
               <a
                 className={styles.link}
                 href="https://celadon-sfogliatella-aab46a.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
               >
                 here
               </a>
