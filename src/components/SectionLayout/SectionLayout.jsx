@@ -1,9 +1,9 @@
-import styles from "./projectLayout.module.css";
+import styles from "./sectionLayout.module.css";
 import { clsx } from "clsx";
 
-function ProjectLayout({ type, name, description, tags, videoPath, reverse }) {
+function SectionLayout({ type, name, description, tags, videoPath, reverse }) {
   return (
-    <div className={styles.projectLayout}>
+    <div className={styles.sectionLayout}>
       <div className={clsx(styles.textInfo, reverse && styles.reverseText)}>
         <h2 className={styles.projectInfo}>{type}</h2>
         <h2 className={styles.projectName}>{name}</h2>
@@ -22,4 +22,4 @@ function ProjectLayout({ type, name, description, tags, videoPath, reverse }) {
   );
 }
 
-export default ProjectLayout;
+export default SectionLayout;

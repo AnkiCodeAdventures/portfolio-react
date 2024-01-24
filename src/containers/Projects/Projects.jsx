@@ -1,4 +1,4 @@
-import ProjectLayout from "../../components/ProjectLayout/ProjectLayout";
+import SectionLayout from "../../components/SectionLayout/SectionLayout";
 import styles from "./projects.module.css";
 
 function Projects() {
@@ -6,7 +6,7 @@ function Projects() {
     <div id="projects" className={styles.projects}>
       <div className={styles.projectContainer}>
         <h1 className={styles.projectHeading}>Projects I&apos;m proud of</h1>
-        <ProjectLayout
+        <SectionLayout
           type="Latest"
           name="Netflix Clone"
           tags="HTML | CSS Modules | JavaScript | React"
@@ -32,7 +32,7 @@ function Projects() {
           videoPath="/assets/Netflix clone .mp4"
         />
 
-        <ProjectLayout
+        <SectionLayout
           type="30 days of JavaScript Project"
           reverse="true"
           name="Drumkit"
@@ -56,7 +56,7 @@ function Projects() {
           }
           videoPath="/assets/2024011915343. (1).mp4"
         />
-        <ProjectLayout
+        <SectionLayout
           type="Frontend Masters Project"
           name="iPhone Calculator"
           tags="HTML | CSS | JavaScript"

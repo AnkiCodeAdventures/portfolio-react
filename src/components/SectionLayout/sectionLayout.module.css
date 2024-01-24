@@ -1,4 +1,4 @@
-.projectLayout {
+.sectionLayout {
   display: flex;
   flex-flow: column wrap;
   align-items: flex-start;
@@ -55,7 +55,7 @@ video {
 }
 
 @media (min-width: 960px) {
-  .projectLayout {
+  .sectionLayout {
     display: grid;
     grid-template-columns: repeat(10, 1fr);
   }
@@ -81,7 +81,7 @@ video {
 }
 
 @media (min-width: 850px) {
-  .projectLayout {
+  .sectionLayout {
     max-width: 1200px;
     margin: 0 auto;
   }
