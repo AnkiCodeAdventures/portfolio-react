@@ -7,6 +7,7 @@ function SectionLayout({
   description,
   tags,
   videoPath,
+  imagePath,
   reverse,
   tagsHeading,
 }) {
@@ -20,11 +21,15 @@ function SectionLayout({
         <h4 className={styles.tags}>{tags}</h4>
       </div>
       <div
-        className={clsx(styles.videoContainer, reverse && styles.reverseMedia)}
+        className={clsx(styles.mediaContainer, reverse && styles.reverseMedia)}
       >
-        <video autoPlay muted loop className={styles.tvVideo}>
-          <source src={videoPath} type="video/mp4" />
-        </video>
+        {imagePath ? (
+          <img className={styles.media} src={imagePath} alt="image"></img>
+        ) : (
+          <video autoPlay muted loop className={styles.media}>
+            <source src={videoPath} type="video/mp4" />
+          </video>
+        )}
       </div>
     </div>
   );

@@ -1,0 +1,32 @@
+.about {
+  margin: 0;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.header {
+  padding: 60px 0;
+}
+
+.aboutSection {
+  min-height: 400px;
+  background-color: var(--dkblue);
+  display: flex;
+  flex-flow: row wrap;
+  padding: 45px 20px;
+}
+
+.aboutHeading {
+  display: block;
+  font-style: var(--mono);
+  font-size: 40px;
+  color: var(--white);
+  margin-bottom: 45px;
+}
+
+@media (min-width: 850px) {
+  .aboutHeading {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
