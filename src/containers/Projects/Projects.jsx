@@ -9,6 +9,7 @@ function Projects() {
         <SectionLayout
           type="Latest"
           name="Netflix Clone"
+          tagsHeading="Technologies used include:"
           tags="HTML | CSS Modules | JavaScript | React"
           description={
             <p>
@@ -36,6 +37,7 @@ function Projects() {
           type="30 days of JavaScript Project"
           reverse="true"
           name="Drumkit"
+          tagsHeading="Technologies used include:"
           tags="HTML | CSS | JavaScript"
           description={
             <p>
@@ -59,6 +61,7 @@ function Projects() {
         <SectionLayout
           type="Frontend Masters Project"
           name="iPhone Calculator"
+          tagsHeading="Technologies used include:"
           tags="HTML | CSS | JavaScript"
           description={
             <p>
