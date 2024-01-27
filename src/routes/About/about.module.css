@@ -11,7 +11,6 @@
 .aboutSection {
   min-height: 400px;
   background-color: var(--dkblue);
-  display: flex;
   flex-flow: row wrap;
   padding: 45px 20px;
 }
@@ -22,6 +21,7 @@
   font-size: 40px;
   color: var(--white);
   margin-bottom: 45px;
+  text-align: left;
 }
 
 @media (min-width: 850px) {
