@@ -1,0 +1,45 @@
+export const sectionData = [
+  {
+    id: 1,
+    type: "Latest",
+    name: "Netflix Clone",
+    tagsHeading: "Technologies used include:",
+    tags: "HTML | CSS Modules | JavaScript | React",
+    description: {
+      text: "Witness a futuristic streaming experience with a Netflix-inspired landing page clone. Authenticated via Auth0, it features a custom typography system and reusable components for a seamless and visually striking user interface. With a focus on clean code practices and a robust CI/CD setup, the platform ensures a fast and secure streaming experience.. Explore it",
+      href: "https://netflix-clone-anki.netlify.app/",
+      linkText: "here",
+    },
+    videoPath: "/assets/Netflix clone .mp4",
+    imagePath: null,
+  },
+  {
+    id: 2,
+    type: "30 days of JavaScript Project",
+    name: "Drumkit",
+    tagsHeading: "Technologies used include:",
+    tags: "HTML | CSS | JavaScript",
+    description: {
+      text: "In the realm of 30 Days JavaScript, behold my Drum Kit's allure, Responsive beats, a rhythmic interface to explore. Dynamic keys, each sound meticulously mapped, Visual echoes dance, as drums are aptly tapped. A harmony of code, where music and coding unite, A symphony of skills, in this JavaScript delight.",
+      href: "https://melodious-drums.netlify.app/",
+      linkText: "Explore the beats...",
+    },
+    videoPath: "/assets/2024011915343. (1).mp4",
+    imagePath: null,
+    reverse: "true",
+  },
+  {
+    id: 3,
+    type: "Frontend Masters Project",
+    name: "iPhone Calculator",
+    tagsHeading: "Technologies used include:",
+    tags: "HTML | CSS | JavaScript",
+    description: {
+      text: "Introducing iPhone Calculator developed with HTML, CSS, and JavaScript as part of the Brian Holt&apos;s Frontend Masters course. This sleek web application replicates the familiar iPhone calculator interface, showcasing a clean and minimalist design. With a focus on user-friendly design and modern technologies, this project reflects my proficiency in front-end development. Explore it",
+      href: "https://celadon-sfogliatella-aab46a.netlify.app/",
+      linkText: "here",
+    },
+    videoPath: "/assets/2024011922272..mp4",
+    imagePath: null,
+  },
+];

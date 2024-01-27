@@ -1,4 +1,5 @@
 import SectionLayout from "../../components/SectionLayout/SectionLayout";
+import { sectionData } from "../../data/section-data";
 import styles from "./projects.module.css";
 
 function Projects() {
@@ -6,85 +7,46 @@ function Projects() {
     <div id="projects" className={styles.projects}>
       <div className={styles.projectContainer}>
         <h1 className={styles.projectHeading}>Projects I&apos;m proud of</h1>
-        <SectionLayout
-          type="Latest"
-          name="Netflix Clone"
-          tagsHeading="Technologies used include:"
-          tags="HTML | CSS Modules | JavaScript | React"
-          description={
-            <p>
-              Witness a futuristic streaming experience with a Netflix-inspired
-              landing page clone. Authenticated via Auth0, it features a custom
-              typography system and reusable components for a seamless and
-              visually striking user interface. With a focus on clean code
-              practices and a robust CI/CD setup, the platform ensures a fast
-              and secure streaming experience.. Explore it{" "}
-              <a
-                className={styles.link}
-                href="https://netflix-clone-anki.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                here
-              </a>
-              .
-            </p>
+        {sectionData.map(
+          ({
+            id,
+            type,
+            name,
+            tagsHeading,
+            tags,
+            description: { text: descriptionText, href, linkText },
+            videoPath,
+            imagePath,
+            reverse,
+          }) => {
+            return (
+              <SectionLayout
+                key={id}
+                type={type}
+                name={name}
+                tagsHeading={tagsHeading}
+                tags={tags}
+                description={
+                  <p>
+                    {descriptionText}{" "}
+                    <a
+                      className={styles.link}
+                      href={href}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {linkText}
+                    </a>
+                    .
+                  </p>
+                }
+                videoPath={videoPath}
+                imagePath={imagePath}
+                reverse={reverse}
+              />
+            );
           }
-          videoPath="/assets/Netflix clone .mp4"
-        />
-
-        <SectionLayout
-          type="30 days of JavaScript Project"
-          reverse="true"
-          name="Drumkit"
-          tagsHeading="Technologies used include:"
-          tags="HTML | CSS | JavaScript"
-          description={
-            <p>
-              In the realm of 30 Days JavaScript, behold my Drum Kit&apos;s
-              allure, Responsive beats, a rhythmic interface to explore. Dynamic
-              keys, each sound meticulously mapped, Visual echoes dance, as
-              drums are aptly tapped. A harmony of code, where music and coding
-              unite, A symphony of skills, in this JavaScript delight.{" "}
-              <a
-                href="https://melodious-drums.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-                className={styles.link}
-              >
-                Explore the beats...
-              </a>
-            </p>
-          }
-          videoPath="/assets/2024011915343. (1).mp4"
-        />
-        <SectionLayout
-          type="Frontend Masters Project"
-          name="iPhone Calculator"
-          tagsHeading="Technologies used include:"
-          tags="HTML | CSS | JavaScript"
-          description={
-            <p>
-              Introducing iPhone Calculator developed with HTML, CSS, and
-              JavaScript as part of the Brian Holt&apos;s Frontend Masters
-              course. This sleek web application replicates the familiar iPhone
-              calculator interface, showcasing a clean and minimalist design.
-              With a focus on user-friendly design and modern technologies, this
-              project reflects my proficiency in front-end development. Explore
-              it{" "}
-              <a
-                className={styles.link}
-                href="https://celadon-sfogliatella-aab46a.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                here
-              </a>
-              .
-            </p>
-          }
-          videoPath="/assets/2024011922272..mp4"
-        />
+        )}
       </div>
     </div>
   );
