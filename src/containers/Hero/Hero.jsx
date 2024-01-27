@@ -1,11 +1,9 @@
-import Nav from "../../components/Nav/Nav";
 import styles from "./hero.module.css";
 
 function Hero() {
   return (
     <div className={styles.heroContainer}>
       <section className={styles.hero}>
-        <Nav />
         <div className={styles.heroText}>
           <p>
             Hi, my name is

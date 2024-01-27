@@ -7,9 +7,7 @@ import Footer from "../../containers/Footer/Footer";
 function About() {
   return (
     <div className={styles.about}>
-      <header className={styles.header}>
-        <Nav />
-      </header>
+      <Nav />
       <Divider />
       <div className={styles.aboutSection}>
         <h1 className={styles.aboutHeading}>About Ankita</h1>
