@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import AnchorButton from "../AnchorButton/AnchorButton";
 import styles from "./nav.module.css";
 import { FaLinkedin, FaGithub, FaLeaf } from "react-icons/fa";
+import { HashLink } from "react-router-hash-link";
 
 function Nav() {
   return (
@@ -15,7 +16,7 @@ function Nav() {
             </Link>
           </li>
           <li>
-            <a href="#projects">Projects</a>
+            <HashLink to="/#projects">Projects</HashLink>
           </li>
           <li>
             <Link to="/about">About</Link>
