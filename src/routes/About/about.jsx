@@ -35,7 +35,7 @@ function About() {
               excellence.
             </p>
           }
-          imagePath="/public/assets/ankita.jpg"
+          imagePath="/assets/ankita.jpg"
         />
       </div>
       <Divider />
