@@ -49,7 +49,7 @@ function Nav() {
             </a>
           </li>
           <li>
-            <AnchorButton link="https://drive.google.com/file/d/1m4BIfeKS_Yga1pAAdI7AeKtKBOUZJODE/view?usp=drive_link">
+            <AnchorButton link="https://drive.google.com/file/d/12bqbUHWu4-Iwg3GLpBUA_2dePs7hRQSr/view">
               Resume
             </AnchorButton>
           </li>
