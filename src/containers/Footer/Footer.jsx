@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
 function Footer() {
   return (
     <div className={styles.footer}>
-      <h3>Ankita Agarwal · Creater</h3>
+      <h3>Ankita Agarwal · Front-End Developer</h3>
       <div className={styles.footerIcons}>
         <a
           href="https://www.linkedin.com/in/ankita1694/"
@@ -24,7 +24,7 @@ function Footer() {
           <FaEnvelope className={styles.footerIcon} />
         </a>
       </div>
-      <p>© 2023 Ankita Agarwal. All rights reserved.</p>
+      <p>© 2024 Ankita Agarwal. All rights reserved.</p>
     </div>
   );
 }
