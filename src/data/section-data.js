@@ -6,7 +6,7 @@ export const sectionData = [
     tagsHeading: "Technologies used include:",
     tags: "React | Mantine UI | JavaScript | CSS Modules | HTML",
     description: {
-      text: "Add your favorite books and explore the mystical land of literature with hobbits, elves, wizards, dragons, gnomes, pixies and many more awaiting you . . ",
+      text: "Add your favorite books and explore the mystical land of literature with hobbits, elves, wizards, dragons, gnomes, pixies and many more awaiting you . . . Explore it",
       href: "https://book-trails.vercel.app/",
       linkText: "here",
     },
