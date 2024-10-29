@@ -64,3 +64,9 @@ a:hover {
     text-align: left;
   }
 }
+
+@media (max-width: 550px) {
+  nav {
+    height: 220px;
+  }
+}
